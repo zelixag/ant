@@ -1,0 +1,413 @@
+{
+  "Antd default button": {
+    "prefix": "a-button",
+    "description": "Antd default button",
+    "body": [
+      "<a-button>$0</a-button>"
+    ]
+  },
+  "Antd primary button": {
+    "prefix": "a-button-primary",
+    "description": "Antd primary button",
+    "body": [
+      "<a-button type=\"primary\">$0</a-button>"
+    ]
+  },
+  "Antd dashed button": {
+    "prefix": "a-button-dashed",
+    "description": "Antd dashed button",
+    "body": [
+      "<a-button type=\"dashed\">$0</a-button>"
+    ]
+  },
+  "Antd danger button": {
+    "prefix": "a-button-danger",
+    "description": "Antd danger button",
+    "body": [
+      "<a-button type=\"danger\">$0</a-button>"
+    ]
+  },
+  "Antd ghost button": {
+    "prefix": "a-button-ghost",
+    "description": "Antd ghost button",
+    "body": [
+      "<a-button ghost>$0</a-button>"
+    ]
+  },
+  "Antd search button": {
+    "prefix": "a-button-search",
+    "description": "Antd search button",
+    "body": [
+      "<a-button icon=\"search\">$0</a-button>"
+    ]
+  },
+  "Antd disabled button": {
+    "prefix": "a-button-disabled",
+    "description": "Antd disabled button",
+    "body": [
+      "<a-button disabled>$0</a-button>"
+    ]
+  },
+  "Antd loading button": {
+    "prefix": "a-button-loading",
+    "description": "Antd loading button",
+    "body": [
+      "<a-button loading={$1}>$0</a-button>"
+    ]
+  },
+  "Antd button group": {
+    "prefix": "a-button-group",
+    "description": "Antd button group",
+    "body": [
+      "<a-button-group value={$0}>",
+      "  <a-button value={$1}>$2</a-button>",
+      "  <a-button value={$3}>$4</a-button>",
+      "</a-button-group>"
+    ]
+  },
+  "Antd dropdown button": {
+    "prefix": "a-dropdown",
+    "description": "Antd dropdown button",
+    "body": [
+      "<a-dropdown overlay={$1}>",
+      "  <a-button>",
+      "    $0<a-icon type=\"down\" />",
+      "  </a-button>",
+      "</a-dropdown>"
+    ]
+  },
+  "Antd row": {
+    "prefix": "a-row",
+    "description": "Antd basic grid",
+    "body": [
+      "<a-row>",
+      "  <a-col span={$1}>$2</a-col>",
+      "  <a-col span={$3}>$4</a-col>",
+      "</a-row>"
+    ]
+  },
+  "Antd layout": {
+    "prefix": "a-layout",
+    "description": "Antd basic layout",
+    "body": [
+      "<a-layout>",
+      "  <a-header>$1</a-header>",
+      "  <a-content>$2</a-content>",
+      "  <a-footer>$3</a-footer>",
+      "</a-layout>"
+    ]
+  },
+  "Antd breadcrumb": {
+    "prefix": "a-breadcrumb",
+    "description": "Antd breadcrumb",
+    "body": [
+      "<a-breadcrumb>",
+      "  <a-breadcrumb-item>$1</a-breadcrumb-item>",
+      "  <a-breadcrumb-item>$2</a-breadcrumb-item>",
+      "</a-breadcrumb>"
+    ]
+  },
+  "Antd menu": {
+    "prefix": "a-menu",
+    "description": "Antd menu",
+    "body": [
+      "<a-menu>",
+      "  <a-menu-item>$1</a-menu-item>",
+      "  <a-menu-item>$2</a-menu-item>",
+      "</a-menu>"
+    ]
+  },
+  "Antd steps": {
+    "prefix": "a-steps",
+    "description": "Antd steps",
+    "body": [
+      "<a-steps current={$1}>",
+      "  <a-steps-step title=\"\" description=\"\" />",
+      "  <a-steps-step title=\"\" description=\"\" />",
+      "  <a-steps-step title=\"\" description=\"\" />",
+      "</a-steps>"
+    ]
+  },
+  "Antd checkbox": {
+    "prefix": "a-checkbox",
+    "description": "Antd checkbox",
+    "body": [
+      "<a-checkbox >$1</a-checkbox>"
+    ]
+  },
+  "Antd checkbox group": {
+    "prefix": "a-checkbox-group",
+    "description": "Antd checkbox group",
+    "body": [
+      "<a-checkbox-group ",
+      "  onChange={$1}",
+      "  value={$2}",
+      ">",
+      "  <a-checkbox value=\"$3\">$4</a-checkbox>",
+      "  <a-checkbox value=\"$5\">$6</a-checkbox>",
+      "</a-checkbox-group>"
+    ]
+  },
+  "Antd disabled checkbox": {
+    "prefix": "a-checkbox-disabled",
+    "description": "Antd Antd disabled checkbox",
+    "body": [
+      "<a-checkbox disabled>$1</a-checkbox>"
+    ]
+  },
+  "Antd form": {
+    "prefix": "a-form",
+    "description": "Antd form",
+    "body": [
+      "<a-form layout=\"${1|inline,vertical,horizontal|}\" onSubmit={$2}>",
+      "  <a-form-item>",
+      "    $3",
+      "  </a-form-item>",
+      "  <a-form-item>",
+      "    <a-button",
+      "      type=\"primary\"",
+      "      htmlType=\"submit\"",
+      "    >",
+      "      $4",
+      "    </a-button>",
+      "  </a-form-item>",
+      "</a-form>"
+    ]
+  },
+  "Antd input": {
+    "prefix": "a-input",
+    "description": "Antd input",
+    "body": [
+      "<a-input placeholder=\"$1\" />"
+    ]
+  },
+  "Antd pre tab input": {
+    "prefix": "a-input-pre",
+    "description": "Antd pre tab input",
+    "body": [
+      "<a-input addonBefore={$2} placeholder=\"$1\" />"
+    ]
+  },
+  "Antd post tab input": {
+    "prefix": "a-input-post",
+    "description": "Antd Antd post tab input",
+    "body": [
+      "<a-input addonAfter={$2} placeholder=\"$1\" />"
+    ]
+  },
+  "Antd input search": {
+    "prefix": "a-input-search",
+    "description": "Antd input search",
+    "body": [
+      "<a-input-search",
+      "  placeholder=\"\"",
+      "  onSearch={$1}",
+      "  enterButton",
+      "/>"
+    ]
+  },
+  "Antd input textarea": {
+    "prefix": "a-input-textarea",
+    "description": "Antd input textarea",
+    "body": [
+      "<a-textarea rows={$1} />"
+    ]
+  },
+  "Antd radio": {
+    "prefix": "a-radio",
+    "description": "Antd radio",
+    "body": [
+      "<a-radio>$1</a-radio>"
+    ]
+  },
+  "Antd disabled radio": {
+    "prefix": "a-radio-disabled",
+    "description": "Antd Antd disabled radio",
+    "body": [
+      "<a-radio disabled >$1</a-radio>"
+    ]
+  },
+  "Antd radio group": {
+    "prefix": "a-radio-group",
+    "description": "Antd radio group ",
+    "body": [
+      "<a-radio-group name=\"\" defaultValue={$1}>",
+      "  <a-radio value={$2}>$3</a-radio>",
+      "  <a-radio value={$4}>$5</a-radio>",
+      "</a-radio-group>"
+    ]
+  },
+  "Antd radio button group": {
+    "prefix": "a-radio-button-group",
+    "description": "Antd radio button group",
+    "body": [
+      "<a-radio-group onChange={$1} value={$2}>",
+      "  <a-radio-button value=\"$3\">$4</a-radio-button>",
+      "  <a-radio-button value=\"$5\">$6</a-radio-button>",
+      "</a-radio-group>"
+    ]
+  },
+  "Antd select": {
+    "prefix": "a-select",
+    "description": "Antd select",
+    "body": [
+      "<a-select value={$1} onChange={$2}>",
+      "  <a-option value=\"$3\">$4</a-option>",
+      "  <a-option value=\"$5\">$6</a-option>",
+      "</a-select>"
+    ]
+  },
+  "Antd treeSelect": {
+    "prefix": "a-treeSelect",
+    "description": "Antd treeSelect",
+    "body": [
+      "<a-treeSelect",
+      "  showSearch",
+      "  value={$1}",
+      "  placeholder=\"\"",
+      "  onChange={$2}",
+      ">",
+      "  <a-treeSelect-tree-node value=\"$3\" title=\"$4\" key=\"$5\">",
+      "    <a-treeSelect-tree-node value=\"$6\" title=\"$7\" key=\"$8\" />",
+      "  </a-treeSelect-tree-node>",
+      "</a-treeSelect>"
+    ]
+  },
+  "Antd collapse": {
+    "prefix": "a-collapse",
+    "description": "Antd collapse",
+    "body": [
+      "<a-collapse activeKey={$1} onChange={$2}>",
+      "  <a-collapse-panel header=\"$3\" key=\"$4\">",
+      "  </a-collapse-panel>",
+      "  <a-collapse-panel header=\"$5\" key=\"$6\">",
+      "  </a-collapse-panel>",
+      "</a-collapse>"
+    ]
+  },
+  "Antd tooltip": {
+    "prefix": "a-tooltip",
+    "description": "Antd tooltip",
+    "body": [
+      "<a-tooltip placement=\"$1\" title=\"$2\">",
+      "  $3",
+      "</a-tooltip>"
+    ]
+  },
+  "Antd timeline": {
+    "prefix": "a-timeline",
+    "description": "Antd timeline",
+    "body": [
+      "<a-timeline>",
+      "  <a-timeline-item>$1</a-timeline-item>",
+      "  <a-timeline-item>$2</a-timeline-item>",
+      "</a-timeline>"
+    ]
+  },
+  "Antd tabs": {
+    "prefix": "a-tabs",
+    "description": "Antd tabs",
+    "body": [
+      "<a-tabs activeKey=\"$1\" onChange={$2}>",
+      "  <a-tab-pane tab=\"$3\" key=\"$4\">$5</a-tab-pane>",
+      "  <a-tab-pane tab=\"$6\" key=\"$7\">$8</a-tab-pane>",
+      "</a-tabs>"
+    ]
+  },
+  "Antd table": {
+    "prefix": "a-table",
+    "description": "Antd table",
+    "body": [
+      "<a-table",
+      "  columns={$1}",
+      "  dataSource={$2}",
+      "  rowKey=\"$3\"",
+      "/>"
+    ]
+  },
+  "Antd table columns": {
+    "prefix": "a-table-columns",
+    "description": "Antd table columns",
+    "body": [
+      "const columns = [",
+      "  {",
+      "    title: '',",
+      "    dataIndex: '',",
+      "    key: '',",
+      "    render: () => {},",
+      "  },",
+      "  {",
+      "    title: '',",
+      "    dataIndex: '',",
+      "    key: '',",
+      "    render: () => {},",
+      "  },",
+      "]"
+    ]
+  },
+  "Antd table rowSelection": {
+    "prefix": "a-table-rowSelection",
+    "description": "Antd table rowSelection",
+    "body": [
+      "const rowSelection = {",
+      "  type: 'checkbox',",
+      "  onChange: (selectedRowKeys, selectedRows) => {$1}",
+      "}"
+    ]
+  },
+  "Antd ": {
+    "prefix": "a-",
+    "description": "Antd ",
+    "body": []
+  },
+  "Antd info message": {
+    "prefix": "a-message",
+    "description": "Antd info message",
+    "body": [
+      "message.info($1)"
+    ]
+  },
+  "Antd error message": {
+    "prefix": "a-message-error",
+    "description": "Antd error message",
+    "body": [
+      "message.error($1)"
+    ]
+  },
+  "Antd warning message": {
+    "prefix": "a-message-warning",
+    "description": "Antd warning message",
+    "body": [
+      "message.warning($1)"
+    ]
+  },
+  "Antd success message": {
+    "prefix": "a-message-success",
+    "description": "Antd success message",
+    "body": [
+      "message.success($1)"
+    ]
+  },
+  "Antd popconfirm": {
+    "prefix": "a-popconfirm",
+    "description": "Antd popconfirm",
+    "body": [
+      "<a-popconfirm ",
+      "  title=\"$1\"",
+      "  onConfirm={$2}",
+      "  onCancel={$3}",
+      "  okText=\"$4\"",
+      "  cancelText=\"$5\"",
+      ">",
+      "  $6",
+      "</a-popconfirm>"
+    ]
+  },
+  "Antd icon": {
+    "prefix": "a-icon",
+    "description": "Antd icon",
+    "body": [
+      "<a-icon type=\"$1\" />"
+    ]
+  }
+}

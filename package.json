@@ -1,0 +1,41 @@
+{
+    "name": "ant",
+    "displayName": "Ant.Design Vue helper",
+    "description": "A vscode extension for Ant Design of Vue",
+    "version": "0.0.16",
+    "icon": "images/icon.png",
+    "publisher": "zlxag",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "galleryBanner": {
+        "color": "#E6E0EA",
+        "theme": "light"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "activationEvents": [
+        "onCommand:extension.sayHello"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue-html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.21",
+        "eslint": "^4.11.0",
+        "@types/node": "^8.10.25",
+        "@types/mocha": "^2.2.42"
+    }
+}
